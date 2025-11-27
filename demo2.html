@@ -1,11 +1,154 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>demo2t</title>
-</head>
-<body>
-    this is my 3rd project
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SABARINATH AS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="portfolio.css"  rel="stylesheet">
+  </head>
+  <style>
+    .navbar-brand{
+    font-size: 35px;
+    padding-left: 20px;
+    
+}
+.navbar-nav{
+    margin-left: 750px;
+    font-size: 18px;
+}
+.card-1{
+    width: 700px;
+   position: fixed; 
+}
+
+
+.card-body h1{
+justify-self: center;
+margin-left: 20px;
+}
+.card-body {
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+}
+.card-body p {
+ justify-self: center;
+ margin-left: 20px;
+ font-size: 18px;
+ color: rgb(77, 80, 80);
+ justify-content: space-evenly;
+}
+#me img{
+    width: 300px;
+    justify-content: center;
+    margin-left: 210px;
+}
+.container {
+    margin-left: 700px;
+    margin-bottom: 300px;
+}
+#body{
+    margin-top: 100px;
+}
+.container #lan{
+    margin-left: 700px;
+    margin-bottom:200px;}
+    .container #ski {
+    margin-left: 700px;
+    margin-bottom:200px;}
+    .container #edu{
+    margin-left: 700px;
+    margin-bottom:200px;}
+    .container #int{
+    margin-left: 700px;
+    margin-bottom:200px;}
+    .container #pro{
+    margin-left: 700px;
+    margin-bottom:200px;}
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <h1 class="navbar-brand" href="#"><B>Sabarinath AS</B></h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#edu">Education</a>
+        <a class="nav-link" href="#pro">Projects</a>
+        <a class="nav-link" href="#int">Internship</a>
+         <a class="nav-link" href="#sti">Skills</a>
+          <a class="nav-link" href="#lan">Languages</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <div class="row">
+      <div class="col-6">
+        <div id="body">
+<div class="card-1">
+    <div class="card-body ">
+  <div id="me"><img src="C:\Users\sabar\Downloads\kompitenze\ex\me.jpg" class="card-img-top rounded-circle" ></div>
+                <div><h1>Summary</h1>
+    <p class="card-text"> Dedicated and thorough B.Tech Computer Science graduate with expertise in programming, problem-solving,
+ and software development. Skilled in web technologies including HTML and JavaScript, with a strong enthu
+siasm for learning new tools and frameworks. Seeking a career in the IT sector, eager to contribute effectively
+ as a team player while continually updating technical expertise</p></div>
+      </div>
+      <div class="col-6" style="padding-top: 200px;">
+
+  </div>
+</div>
+<div class="container " id="edu">
+<h1>Education</h1>
+<p>Lourdes Matha College of Science and Technology </p>
+<p > 2021-25</p>
+ <p>Bachelor of Technology in Computer Science</p>
+ <p>Janardhanapuram Higher Secondary School
+ </p>
+ <p>Class 12 (91.25%)
+ </p>
+ <p>Chinthalaya Vidyalayam Senior Secondary School
+ </p>
+ <p>Class 10 (79.5%)</p>
+</div>
+<div class="container" id="pro">
+    <h1>Projects</h1>
+<h3> The Emergency Accident Alert System</h3>
+<p> An innovative project designed to detect road accidents in real-time using sensors. Upon detecting a collision,
+ the system automatically sends alerts to the victim’s emergency contact number, the nearest police station,
+ and nearby hospitals, ensuring swift and coordinated assistance.</p>
+<h3> BudgetBuddy</h3>
+<p> Apersonal finance management project aimed at simplifying financial planning for users. The tool enables users
+ to track expenses, set personalized budgets, and gain insights into spending patterns, helping them achieve their
+ financial goals.</p>
+ </div>
+ <div class="container" id="int">
+    <h1> Internship</h1>
+    <h3> Full Stack Python Development Intern</h3>
+<h4> Kompetenzen Technologie</h4>
+<p> Hands-on experience in building full-stack web applications using Python, React, and MongoDB</p>
+<p> Worked on real-time projects with RESTful APIs, database integration, and responsive UI design</p>
+<p> Strengthened expertise in backend logic, frontend frameworks, and deployment processes.</p>
+ </div>
+ <div class="container" id="ski">
+    <h1> Skills</h1>
+    <h3>Technical Skills</h3>
+    <p> Programming Languages: HTML,Bootstrap,JavaScript,ReactJs</p>
+    <p>Tools: VS Code, GitHub</p>
+    <h3>SoftSkills</h3>
+    <p>Adaptability, Problem Solving, Teamwork</p>
+ </div>
+ <div class="container" id="lan">
+    <h1> Languages</h1>
+    <p> Malayalam (Fluent), English (Fluent), Hindi (Conversational)</p>
+ </div>
+</div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
 </html>
